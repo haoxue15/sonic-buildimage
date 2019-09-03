@@ -6,6 +6,7 @@ $(SONIC_ONE_IMAGE)_IMAGE_TYPE = onie
 $(SONIC_ONE_IMAGE)_INSTALLS += $(BRCM_OPENNSL_KERNEL)
 $(SONIC_ONE_IMAGE)_LAZY_INSTALLS += $(DELL_S6000_PLATFORM_MODULE) \
                                $(DELL_Z9264F_PLATFORM_MODULE) \
+                               $(DELL_S5232F_PLATFORM_MODULE) \
                                $(DELL_Z9100_PLATFORM_MODULE) \
                                $(DELL_S6100_PLATFORM_MODULE) \
                                $(INGRASYS_S8900_54XC_PLATFORM_MODULE) \
@@ -26,6 +27,10 @@ $(SONIC_ONE_IMAGE)_LAZY_INSTALLS += $(DELL_S6000_PLATFORM_MODULE) \
                                $(ACCTON_MINIPACK_PLATFORM_MODULE) \
                                $(ACCTON_AS5812_54X_PLATFORM_MODULE) \
                                $(ACCTON_AS5835_54X_PLATFORM_MODULE) \
+                               $(ACCTON_AS9716_32D_PLATFORM_MODULE) \
+                               $(ACCTON_AS5835_54T_PLATFORM_MODULE) \
+                               $(ACCTON_AS7312_54XS_PLATFORM_MODULE) \
+                               $(ACCTON_AS7315_27XB_PLATFORM_MODULE) \
                                $(INVENTEC_D7032Q28B_PLATFORM_MODULE) \
                                $(INVENTEC_D7054Q28B_PLATFORM_MODULE) \
                                $(INVENTEC_D7264Q28B_PLATFORM_MODULE) \
